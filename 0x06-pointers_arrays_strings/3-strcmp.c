@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * __strcmp - Function which copmare two string and
+ *  _strcmp - Function which copmare two string and
  * @s1: first string
  * @s2:second string
  * Return:
@@ -35,7 +35,6 @@ int _strcmp(char *s1, char *s2)
 		}
 		else
 			i++;
-
 	}
 	return (diff);
 }
