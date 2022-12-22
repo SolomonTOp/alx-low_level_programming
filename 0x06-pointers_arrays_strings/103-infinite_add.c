@@ -2,7 +2,7 @@
 
 /**
  * infinite_add - C function that adds two numbers stored
- * in string to a buffer.
+ * in strings to a buffer.
  * Assumes that strings are never empty and
  * that numbers will always be positive, or 0.
  * Assumes there are only digits stored in the number strings.
