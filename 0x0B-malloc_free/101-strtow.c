@@ -19,7 +19,7 @@ int wordnos(char *s)
 			flag = 0;
 		else if (flag == 0)
 		{
-			flag = 1;
+			flag = l;
 			w++;
 		}
 	}
@@ -73,4 +73,4 @@ char **strtow(char *str)
 	matrix[k] = NULL;
 
 	return (matrix);
-	
+}
