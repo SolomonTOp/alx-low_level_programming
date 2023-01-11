@@ -4,7 +4,7 @@
 /**
  * main - Prints coints left
  * @args: Parameter Entry
- * @argv: One number of argumetsr
+ * @argv: One number of argumets
  * Return: zero onOne number of argumetsr
  */
 int main(int args, char *argv[])
@@ -13,7 +13,7 @@ int main(int args, char *argv[])
 
 	if (args != 2)
 	{
-		printf("0\n");
+		printf("Error\n");
 		return (1);
 	}
 	c = atoi(argv[1]);
