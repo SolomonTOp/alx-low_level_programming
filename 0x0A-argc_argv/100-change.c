@@ -45,3 +45,4 @@ int main(int args, char *argv[])
 	printf("%d\n", coins);
 	return (0);
 }
+
