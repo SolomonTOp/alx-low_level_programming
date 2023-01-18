@@ -1,9 +1,21 @@
-#ifndef FUNCTION_POINTERS_H
-#define FUNCTION_POINTERS_H
+#include <stdio.h>
+/**
+ * array_iterator - function that executes function given as param.
+ * @array: array of elements.
+ * @size: size of array.
+ * @action: function pointer.
+ *
+ * Return: void.
+ */
+void array_iterator(int *array, size_t size, void (*action)(int))
+{
+	unsigned int i;
 
-void _putchar(char *c);
-void prints_name(char *name, void (*F)(char *));
-void array_iterator(int *array, size_t size, void (*action)(int));
-int int_index(int *array, int size, int (*cmp)(int));
-
-#endif /*FUNCTION_POINTERS_H*/
+	if (array && size > 0 && action)
+	{
+		for (i = 0; i < size; i++)
+		{
+			action(array[i]);
+		}
+	}
+}
